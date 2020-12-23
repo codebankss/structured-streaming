@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/hduser/Documents/UTD/CS/Fall20/BigData/assignments/3/final/kafka/src/main/resources/application.conf,/Users/hduser/Documents/UTD/CS/Fall20/BigData/assignments/3/final/kafka/target/scala-2.11/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/hduser/Documents/UTD/CS/Fall20/BigData/assignments/3/final/kafka/src/main/resources/log4j.properties,/Users/hduser/Documents/UTD/CS/Fall20/BigData/assignments/3/final/kafka/target/scala-2.11/classes/log4j.properties)[0m

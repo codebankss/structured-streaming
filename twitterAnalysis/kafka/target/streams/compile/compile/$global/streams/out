@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/hduser/Desktop/kafka/src/main/scala/TwitterSentiment.scala:44:8: value map is not a member of java.util.List[edu.stanford.nlp.util.CoreMap][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value map'?[0m
+[0m[[0m[31merror[0m] [0m[0m      .map(sentence => (sentence, sentence.get(classOf[SentimentCoreAnnotations.SentimentAnnotatedTree])))[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/hduser/Desktop/kafka/src/main/scala/TwitterSentiment.scala:45:122: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: edu.stanford.nlp.trees.Tree[0m
+[0m[[0m[31merror[0m] [0m[0m      .map { case (sentence, tree) => (sentence.toString,TweetSentiment.toSentiment(RNNCoreAnnotations.getPredictedClass(tree))) }[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
