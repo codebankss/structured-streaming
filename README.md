@@ -1,4 +1,6 @@
-Spark Streaming with Twitter and Kafka
+# Structured Streaming
+
+## Spark Streaming with Twitter and Kafka
 
 The following instructions are for Linux/MacOS.
 
@@ -62,7 +64,4 @@ curl -XPUT -H "Content-Type: application/json" http://localhost:9200/_cluster/se
 
 curl -XPUT -H "Content-Type: application/json" http://localhost:9200/_all/_settings -d '{"index.blocks.read_only_allow_delete": null}'
 
-Now, try creating index again. 
--------------------------------------------------------------------------
-
-Analyzing Social Network using GraphX 
+Now, try creating index again.
