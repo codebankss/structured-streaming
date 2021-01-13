@@ -1,6 +1,4 @@
-# Structured Streaming
-
-## Spark Streaming with Twitter and Kafka
+# *Spark Streaming with Twitter and Kafka*
 
 The following instructions are for Linux/MacOS.
 
