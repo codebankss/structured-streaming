@@ -103,3 +103,6 @@ The following pie chart shows the tweet counts based on the classification.
 The following timelion graph shows classification of tweets by count per minute.
 
 ![](images/Picture4.png)
+
+## <ins> Summary </ins>
+By looking at the visualizations and analysis, we can say that approximately 78% of the tweets are classified as NEGATIVE, about 14% are NEUTRAL and 8% are POSITIVE. At any given point of time, negative tweets about ‘elections’ are considerable high than positive or neutral and the number is varying at a constant rate over time.
