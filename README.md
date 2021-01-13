@@ -13,8 +13,6 @@
 
 # Execution
 
-Tweets are streamed using Kafka into Scala project where tweets are analyzed for their sentiment using Stanford NLP library. Results of sentiment analysis are classified as POSITIVE, NEGATIVE or NEUTRAL. A message containing the sentiment is sent back to the kafka through topicA and they are visualized using Kibana and Elasticsearch. The keywords searched are “Biden”, “Trump” and “election”.
-
 ## How to Implement
 
 The following instructions are for Linux/MacOS.
