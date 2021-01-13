@@ -1,5 +1,22 @@
 # *Spark Streaming with Twitter and Kafka*
 
+## Requirements
+
+1.	Java		(v1.8.0_261)
+2.	Scala		(v2.11.8)
+3.	Spark		(2.4.0)
+4.	sbt
+5.	Kafka		(v2.11-2.4.0)
+6.	Elastic Search	(v7.9.3)
+7.	Kibana		(v7.9.3-darwin-x86_64)
+8.	Logstash	(v7.9.3)
+
+# Execution
+
+Tweets are streamed using Kafka into Scala project where tweets are analyzed for their sentiment using Stanford NLP library. Results of sentiment analysis are classified as POSITIVE, NEGATIVE or NEUTRAL. A message containing the sentiment is sent back to the kafka through topicA and they are visualized using Kibana and Elasticsearch. The keywords searched are “Biden”, “Trump” and “election”.
+
+## How to Implement
+
 The following instructions are for Linux/MacOS.
 
 Assumptions: All the required tools (sbt, elasticsearch, kafka, kibana and logstash) are downloaded and twitter developer account is created.
